@@ -7,7 +7,7 @@ import ShowCourseComponent from './components/ShowCourseComponent';
 import UserCartComponent from './components/UserCartComponent';
 
 function App() {
-  const [courses, setCourses] = useState([
+  const [courses] = useState([
     {
       id: 1,
       name: 'T-shirt',
